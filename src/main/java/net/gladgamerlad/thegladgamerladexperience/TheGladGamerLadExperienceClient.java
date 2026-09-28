@@ -2,6 +2,7 @@ package net.gladgamerlad.thegladgamerladexperience;
 
 import net.gladgamerlad.thegladgamerladexperience.menu.ModMenuTypes;
 import net.gladgamerlad.thegladgamerladexperience.menu.custom.CrusherScreen;
+import net.gladgamerlad.thegladgamerladexperience.menu.custom.WasherScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -16,5 +17,6 @@ public class TheGladGamerLadExperienceClient {
     @SubscribeEvent
     public static void registerScreens(RegisterMenuScreensEvent event) {
         event.register(ModMenuTypes.CRUSHER_MENU.get(), CrusherScreen::new);
+        event.register(ModMenuTypes.WASHER_MENU.get(), WasherScreen::new);
     }
 }

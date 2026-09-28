@@ -53,4 +53,5 @@ public class ModItems {
 
 
     public static  final  DeferredItem<BlockItem> CRUSHER = ITEMS.registerSimpleBlockItem(ModBlocks.CRUSHER);
+    public static  final  DeferredItem<BlockItem> WASHER = ITEMS.registerSimpleBlockItem(ModBlocks.WASHER);
 }

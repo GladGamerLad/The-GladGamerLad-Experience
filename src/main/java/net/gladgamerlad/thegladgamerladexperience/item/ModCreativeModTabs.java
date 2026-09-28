@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.HAMMER.get());
 
                 output.accept(ModBlocks.CRUSHER.get());
+                output.accept(ModBlocks.WASHER.get());
             })
             .build()
     );

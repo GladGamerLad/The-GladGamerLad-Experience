@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "washer",
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "W": "#minecraft:wool"
+  },
+  "pattern": [
+    "CCC",
+    "CWC",
+    "CCC"
+  ],
+  "result": {
+    "id": "thegladgamerladexperience:washer"
+  }
+}
