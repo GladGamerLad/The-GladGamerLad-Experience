@@ -37,5 +37,6 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
     protected void generate() {
         // Equivalent to calling add(MyBlocks.EXAMPLE_BLOCK.get(), createSingleItemTable(MyBlocks.EXAMPLE_BLOCK.get()));
         this.dropSelf(ModBlocks.CRUSHER.get());
+        this.dropSelf(ModBlocks.WASHER.get());
     }
 }

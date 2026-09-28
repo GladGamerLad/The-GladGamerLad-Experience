@@ -10,6 +10,7 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
@@ -72,6 +73,16 @@ public class ModRecipeProvider extends RecipeProvider{
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(Items.IRON_BLOCK), has(Items.IRON_BLOCK))
                 .group("hammer")
+                .save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.WASHER.get())
+                .pattern("CCC")
+                .pattern("CWC")
+                .pattern("CCC")
+                .define('C', Items.COPPER_INGOT)
+                .define('W', ItemTags.WOOL)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .group("washer")
                 .save(output);
 
         List<ItemLike> CRUSHED_RAW_IRON_SMELTABLES = List.of(ModItems.CRUSHED_RAW_IRON);

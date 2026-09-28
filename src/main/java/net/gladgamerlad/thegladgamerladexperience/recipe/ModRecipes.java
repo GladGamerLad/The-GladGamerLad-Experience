@@ -2,6 +2,7 @@ package net.gladgamerlad.thegladgamerladexperience.recipe;
 
 import net.gladgamerlad.thegladgamerladexperience.TheGladGamerLadExperience;
 import net.gladgamerlad.thegladgamerladexperience.recipe.custom.CrusherRecipe;
+import net.gladgamerlad.thegladgamerladexperience.recipe.custom.WasherRecipe;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -21,6 +22,16 @@ public class ModRecipes {
                 @Override
                 public String toString() {
                     return "crushing";
+                }
+            });
+
+    public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<WasherRecipe>> WASHER_SERIALIZER =
+            SERIALIZERS.register("washing", () -> new RecipeSerializer<>(WasherRecipe.CODEC, WasherRecipe.STREAM_CODEC));
+    public static final DeferredHolder<RecipeType<?>, RecipeType<WasherRecipe>> WASHER_TYPE =
+            TYPES.register("washing", () -> new RecipeType<WasherRecipe>() {
+                @Override
+                public String toString() {
+                    return "washing";
                 }
             });
 }

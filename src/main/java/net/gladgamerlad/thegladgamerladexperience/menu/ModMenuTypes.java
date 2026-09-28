@@ -2,6 +2,7 @@ package net.gladgamerlad.thegladgamerladexperience.menu;
 
 import net.gladgamerlad.thegladgamerladexperience.TheGladGamerLadExperience;
 import net.gladgamerlad.thegladgamerladexperience.menu.custom.CrusherMenu;
+import net.gladgamerlad.thegladgamerladexperience.menu.custom.WasherMenu;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -19,6 +20,9 @@ public class ModMenuTypes {
 
     public static final DeferredHolder<MenuType<?>, MenuType<CrusherMenu>> CRUSHER_MENU =
             registerMenuType("crusher_menu", CrusherMenu::new);
+
+    public static final DeferredHolder<MenuType<?>, MenuType<WasherMenu>> WASHER_MENU =
+            registerMenuType("washer_menu", WasherMenu::new);
 
     private static <T extends AbstractContainerMenu>DeferredHolder<MenuType<?>, MenuType<T>> registerMenuType(String name,
                                                                                                               IContainerFactory<T> factory) {

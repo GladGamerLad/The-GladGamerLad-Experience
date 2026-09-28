@@ -18,6 +18,7 @@ public class ModModelProvider extends ModelProvider {
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         blockModels.createTrivialCube(ModBlocks.CRUSHER.get());
+        blockModels.createTrivialCube(ModBlocks.WASHER.get());
 
         itemModels.generateFlatItem(ModItems.CRUSHED_RAW_IRON.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.CRUSHED_RAW_COPPER.get(), ModelTemplates.FLAT_ITEM);

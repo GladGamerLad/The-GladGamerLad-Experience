@@ -2,6 +2,7 @@ package net.gladgamerlad.thegladgamerladexperience.block;
 
 import net.gladgamerlad.thegladgamerladexperience.TheGladGamerLadExperience;
 import net.gladgamerlad.thegladgamerladexperience.block.entity.custom.CrusherEntitiyBlock;
+import net.gladgamerlad.thegladgamerladexperience.block.entity.custom.WasherEntityBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Block;
@@ -16,6 +17,16 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CRUSHER = BLOCKS.register(
             "crusher",
             registryName -> new CrusherEntitiyBlock(BlockBehaviour.Properties.of()
+                    .setId(ResourceKey.create(Registries.BLOCK, registryName))
+                    .destroyTime(1.0f)
+                    .explosionResistance(10.0f)
+                    .sound(SoundType.NETHERITE_BLOCK)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final DeferredBlock<Block> WASHER = BLOCKS.register(
+            "washer",
+            registryName -> new WasherEntityBlock(BlockBehaviour.Properties.of()
                     .setId(ResourceKey.create(Registries.BLOCK, registryName))
                     .destroyTime(1.0f)
                     .explosionResistance(10.0f)

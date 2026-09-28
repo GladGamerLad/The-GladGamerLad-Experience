@@ -22,6 +22,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider lookupProvider) {
         // Create a TagAppender of registry objects for our tag. This could also be e.g. a vanilla or NeoForge tag.
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.CRUSHER.get());
+                .add(ModBlocks.CRUSHER.get())
+                .add(ModBlocks.WASHER.get());
     }
 }
