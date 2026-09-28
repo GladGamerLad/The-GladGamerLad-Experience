@@ -1,0 +1,8 @@
+{
+  "type": "thegladgamerladexperience:crushing",
+  "ingredient": "minecraft:emerald",
+  "result": {
+    "count": 1,
+    "id": "thegladgamerladexperience:crushed_emerald"
+  }
+}
