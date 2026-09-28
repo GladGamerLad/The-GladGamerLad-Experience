@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "totem of jimothy",
+  "key": {
+    "C": "thegladgamerladexperience:crushed_emerald",
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "GCG",
+    " G ",
+    " G "
+  ],
+  "result": {
+    "id": "thegladgamerladexperience:totem_of_jimothy"
+  }
+}

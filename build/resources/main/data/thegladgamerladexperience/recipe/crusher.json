@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crusher",
+  "key": {
+    "C": "minecraft:cobblestone",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "id": "thegladgamerladexperience:crusher"
+  }
+}
