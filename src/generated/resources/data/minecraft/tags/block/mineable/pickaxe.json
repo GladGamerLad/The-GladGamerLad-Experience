@@ -1,6 +1,9 @@
 {
   "values": [
     "thegladgamerladexperience:crusher",
-    "thegladgamerladexperience:washer"
+    "thegladgamerladexperience:washer",
+    "thegladgamerladexperience:crude_iron_ore",
+    "thegladgamerladexperience:crude_copper_ore",
+    "thegladgamerladexperience:crude_gold_ore"
   ]
 }

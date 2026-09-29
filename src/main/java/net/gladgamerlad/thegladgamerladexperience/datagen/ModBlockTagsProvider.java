@@ -23,6 +23,15 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         // Create a TagAppender of registry objects for our tag. This could also be e.g. a vanilla or NeoForge tag.
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.CRUSHER.get())
-                .add(ModBlocks.WASHER.get());
+                .add(ModBlocks.WASHER.get())
+                .add(ModBlocks.CRUDE_IRON_ORE.get())
+                .add(ModBlocks.CRUDE_COPPER_ORE.get())
+                .add(ModBlocks.CRUDE_GOLD_ORE.get());
+
+        this.tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.CRUDE_IRON_ORE.get())
+                .add(ModBlocks.CRUDE_COPPER_ORE.get())
+                .add(ModBlocks.CRUDE_GOLD_ORE.get());
+
     }
 }

@@ -1,10 +1,12 @@
 package net.gladgamerlad.thegladgamerladexperience.datagen;
 
 import net.gladgamerlad.thegladgamerladexperience.block.ModBlocks;
+import net.gladgamerlad.thegladgamerladexperience.item.ModItems;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 
 import java.util.Set;
@@ -38,5 +40,9 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         // Equivalent to calling add(MyBlocks.EXAMPLE_BLOCK.get(), createSingleItemTable(MyBlocks.EXAMPLE_BLOCK.get()));
         this.dropSelf(ModBlocks.CRUSHER.get());
         this.dropSelf(ModBlocks.WASHER.get());
+
+        add(ModBlocks.CRUDE_IRON_ORE.get(), block -> createOreDrop(block, Items.RAW_IRON));
+        add(ModBlocks.CRUDE_COPPER_ORE.get(), block -> createOreDrop(block, Items.RAW_COPPER));
+        add(ModBlocks.CRUDE_GOLD_ORE.get(), block -> createOreDrop(block, Items.RAW_GOLD));
     }
 }

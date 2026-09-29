@@ -54,4 +54,7 @@ public class ModItems {
 
     public static  final  DeferredItem<BlockItem> CRUSHER = ITEMS.registerSimpleBlockItem(ModBlocks.CRUSHER);
     public static  final  DeferredItem<BlockItem> WASHER = ITEMS.registerSimpleBlockItem(ModBlocks.WASHER);
+    public static  final  DeferredItem<BlockItem> CRUDE_IRON_ORE = ITEMS.registerSimpleBlockItem(ModBlocks.CRUDE_IRON_ORE);
+    public static  final  DeferredItem<BlockItem> CRUDE_COPPER_ORE = ITEMS.registerSimpleBlockItem(ModBlocks.CRUDE_COPPER_ORE);
+    public static  final  DeferredItem<BlockItem> CRUDE_GOLD_ORE = ITEMS.registerSimpleBlockItem(ModBlocks.CRUDE_GOLD_ORE);
 }

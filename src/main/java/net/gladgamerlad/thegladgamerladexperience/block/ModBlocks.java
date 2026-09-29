@@ -33,4 +33,34 @@ public class ModBlocks {
                     .sound(SoundType.NETHERITE_BLOCK)
                     .requiresCorrectToolForDrops()
             ));
+
+    public static final DeferredBlock<Block> CRUDE_IRON_ORE = BLOCKS.register(
+            "crude_iron_ore",
+            registryName -> new Block(BlockBehaviour.Properties.of()
+                    .setId(ResourceKey.create(Registries.BLOCK, registryName))
+                    .destroyTime(1.0f)
+                    .explosionResistance(10.0f)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final DeferredBlock<Block> CRUDE_COPPER_ORE = BLOCKS.register(
+            "crude_copper_ore",
+            registryName -> new Block(BlockBehaviour.Properties.of()
+                    .setId(ResourceKey.create(Registries.BLOCK, registryName))
+                    .destroyTime(1.0f)
+                    .explosionResistance(10.0f)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final DeferredBlock<Block> CRUDE_GOLD_ORE = BLOCKS.register(
+            "crude_gold_ore",
+            registryName -> new Block(BlockBehaviour.Properties.of()
+                    .setId(ResourceKey.create(Registries.BLOCK, registryName))
+                    .destroyTime(1.0f)
+                    .explosionResistance(10.0f)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+            ));
 }

@@ -85,9 +85,9 @@ public class ModRecipeProvider extends RecipeProvider{
                 .group("washer")
                 .save(output);
 
-        List<ItemLike> CRUSHED_RAW_IRON_SMELTABLES = List.of(ModItems.CRUSHED_RAW_IRON);
-        List<ItemLike> CRUSHED_RAW_COPPER_SMELTABLES = List.of(ModItems.CRUSHED_RAW_COPPER);
-        List<ItemLike> CRUSHED_RAW_GOLD_SMELTABLES = List.of(ModItems.CRUSHED_RAW_GOLD);
+        List<ItemLike> CRUSHED_RAW_IRON_SMELTABLES = List.of(ModItems.CRUSHED_RAW_IRON, ModBlocks.CRUDE_IRON_ORE);
+        List<ItemLike> CRUSHED_RAW_COPPER_SMELTABLES = List.of(ModItems.CRUSHED_RAW_COPPER, ModBlocks.CRUDE_COPPER_ORE);
+        List<ItemLike> CRUSHED_RAW_GOLD_SMELTABLES = List.of(ModItems.CRUSHED_RAW_GOLD, ModBlocks.CRUDE_GOLD_ORE);
 
         oreSmelting(CRUSHED_RAW_IRON_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, Items.IRON_INGOT, 0.25f, 200, "crushed raw iron");
         oreSmelting(CRUSHED_RAW_COPPER_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, Items.COPPER_INGOT, 0.25f, 200, "crushed raw copper");

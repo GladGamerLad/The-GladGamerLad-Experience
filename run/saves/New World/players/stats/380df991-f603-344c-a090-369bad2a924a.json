@@ -1,23 +1,34 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:sprint_one_cm": 854,
-      "minecraft:time_since_rest": 1682,
-      "minecraft:inspect_hopper": 6,
-      "minecraft:walk_one_cm": 1735,
-      "minecraft:total_world_time": 1748,
-      "minecraft:leave_game": 3,
-      "minecraft:fly_one_cm": 653,
-      "minecraft:crouch_one_cm": 176,
-      "minecraft:sneak_time": 153,
-      "minecraft:play_time": 1682,
-      "minecraft:jump": 10,
-      "minecraft:time_since_death": 1682
+    "minecraft:picked_up": {
+      "minecraft:iron_ore": 1,
+      "minecraft:raw_iron": 16
     },
     "minecraft:used": {
-      "minecraft:hopper": 3,
+      "thegladgamerladexperience:crude_iron_ore": 16,
+      "minecraft:hopper": 5,
       "thegladgamerladexperience:crusher": 1,
-      "thegladgamerladexperience:washer": 3
+      "thegladgamerladexperience:washer": 4,
+      "minecraft:netherite_pickaxe": 17,
+      "minecraft:iron_ore": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 4623,
+      "minecraft:time_since_rest": 3379,
+      "minecraft:inspect_hopper": 9,
+      "minecraft:walk_one_cm": 8065,
+      "minecraft:total_world_time": 3489,
+      "minecraft:leave_game": 5,
+      "minecraft:fly_one_cm": 2094,
+      "minecraft:crouch_one_cm": 386,
+      "minecraft:sneak_time": 225,
+      "minecraft:play_time": 3379,
+      "minecraft:jump": 26,
+      "minecraft:time_since_death": 3379
+    },
+    "minecraft:mined": {
+      "thegladgamerladexperience:crude_iron_ore": 16,
+      "minecraft:iron_ore": 1
     }
   },
   "DataVersion": 4790

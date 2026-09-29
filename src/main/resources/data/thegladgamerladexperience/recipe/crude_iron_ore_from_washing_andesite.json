@@ -1,0 +1,8 @@
+{
+  "type": "thegladgamerladexperience:washing",
+  "ingredient": "minecraft:andesite",
+  "result": {
+    "count":1,
+    "id": "thegladgamerladexperience:crude_iron_ore"
+  }
+}

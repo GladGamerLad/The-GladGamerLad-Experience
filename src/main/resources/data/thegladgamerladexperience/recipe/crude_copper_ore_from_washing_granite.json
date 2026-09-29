@@ -1,0 +1,8 @@
+{
+  "type": "thegladgamerladexperience:washing",
+  "ingredient": "minecraft:granite",
+  "result": {
+    "count":1,
+    "id": "thegladgamerladexperience:crude_copper_ore"
+  }
+}

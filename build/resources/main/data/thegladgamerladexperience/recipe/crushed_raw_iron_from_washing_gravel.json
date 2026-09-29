@@ -1,8 +1,0 @@
-{
-  "type": "thegladgamerladexperience:washing",
-  "ingredient": "minecraft:gravel",
-  "result": {
-    "count":1,
-    "id": "thegladgamerladexperience:crushed_raw_iron"
-  }
-}
