@@ -1,0 +1,16 @@
+{
+  "itemGroup.thegladgamerladexperience.the_gladgamerlad_experience_tab": "The GladGamerLad Experience",
+
+  "block.thegladgamerladexperience.crusher": "Crusher",
+  "block.thegladgamerladexperience.washer": "Washer",
+  "block.thegladgamerladexperience.crude_iron_ore": "Crude Iron Ore",
+  "block.thegladgamerladexperience.crude_copper_ore": "Crude Copper Ore",
+  "block.thegladgamerladexperience.crude_gold_ore": "Crude Gold Ore",
+
+  "item.thegladgamerladexperience.crushed_raw_iron": "Crushed Raw Iron",
+  "item.thegladgamerladexperience.crushed_raw_copper": "Crushed Raw Copper",
+  "item.thegladgamerladexperience.crushed_raw_gold": "Crushed Raw Gold",
+  "item.thegladgamerladexperience.totem_of_jimothy": "Totem of Jimothy",
+  "item.thegladgamerladexperience.crushed_emerald": "Crushed Emerald",
+  "item.thegladgamerladexperience.hammer": "Hammer"
+}
