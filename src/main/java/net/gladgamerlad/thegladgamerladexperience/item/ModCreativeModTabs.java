@@ -31,6 +31,9 @@ public class ModCreativeModTabs {
 
                 output.accept(ModBlocks.CRUSHER.get());
                 output.accept(ModBlocks.WASHER.get());
+                output.accept(ModBlocks.CRUDE_IRON_ORE.get());
+                output.accept(ModBlocks.CRUDE_COPPER_ORE.get());
+                output.accept(ModBlocks.CRUDE_GOLD_ORE.get());
             })
             .build()
     );

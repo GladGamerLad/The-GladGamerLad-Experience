@@ -1,33 +1,42 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:iron_ore": 1,
-      "minecraft:raw_iron": 16
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 9065,
+      "minecraft:time_since_rest": 5002,
+      "minecraft:inspect_hopper": 14,
+      "minecraft:walk_one_cm": 14649,
+      "minecraft:total_world_time": 5124,
+      "minecraft:leave_game": 6,
+      "minecraft:fly_one_cm": 2524,
+      "minecraft:crouch_one_cm": 436,
+      "minecraft:sneak_time": 236,
+      "minecraft:play_time": 5002,
+      "minecraft:jump": 31,
+      "minecraft:time_since_death": 5002
     },
     "minecraft:used": {
-      "thegladgamerladexperience:crude_iron_ore": 16,
+      "thegladgamerladexperience:crude_iron_ore": 19,
       "minecraft:hopper": 5,
       "thegladgamerladexperience:crusher": 1,
       "thegladgamerladexperience:washer": 4,
-      "minecraft:netherite_pickaxe": 17,
+      "thegladgamerladexperience:crude_copper_ore": 4,
+      "thegladgamerladexperience:crude_gold_ore": 1,
+      "minecraft:netherite_pickaxe": 25,
+      "minecraft:sandstone": 1,
       "minecraft:iron_ore": 1
     },
-    "minecraft:custom": {
-      "minecraft:sprint_one_cm": 4623,
-      "minecraft:time_since_rest": 3379,
-      "minecraft:inspect_hopper": 9,
-      "minecraft:walk_one_cm": 8065,
-      "minecraft:total_world_time": 3489,
-      "minecraft:leave_game": 5,
-      "minecraft:fly_one_cm": 2094,
-      "minecraft:crouch_one_cm": 386,
-      "minecraft:sneak_time": 225,
-      "minecraft:play_time": 3379,
-      "minecraft:jump": 26,
-      "minecraft:time_since_death": 3379
+    "minecraft:picked_up": {
+      "minecraft:raw_gold": 1,
+      "minecraft:iron_ore": 1,
+      "minecraft:sandstone": 1,
+      "minecraft:raw_copper": 3,
+      "minecraft:raw_iron": 19
     },
     "minecraft:mined": {
-      "thegladgamerladexperience:crude_iron_ore": 16,
+      "minecraft:sandstone": 1,
+      "thegladgamerladexperience:crude_iron_ore": 19,
+      "thegladgamerladexperience:crude_copper_ore": 3,
+      "thegladgamerladexperience:crude_gold_ore": 1,
       "minecraft:iron_ore": 1
     }
   },

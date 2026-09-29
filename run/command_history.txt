@@ -1,2 +1,4 @@
 /give Dev thegladgamerladexperience:washer
 /gamemode survival
+/gamemode creative
+/gamemode survival
