@@ -1,6 +1,9 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/orientable_with_bottom",
   "textures": {
-    "all": "thegladgamerladexperience:block/washer"
+    "bottom": "thegladgamerladexperience:block/washer_bottom",
+    "front": "thegladgamerladexperience:block/washer_front",
+    "side": "thegladgamerladexperience:block/washer_side",
+    "top": "thegladgamerladexperience:block/washer_top"
   }
 }

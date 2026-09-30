@@ -11,3 +11,5 @@
 /gamemode creative
 /gamemode survival
 /give Dev thegladgamerladexperience:crude_copper_ore
+/gamemode creative
+/time set 1000

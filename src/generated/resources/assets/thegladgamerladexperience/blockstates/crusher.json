@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "thegladgamerladexperience:block/crusher",
+      "y": 90
+    },
+    "facing=north": {
       "model": "thegladgamerladexperience:block/crusher"
+    },
+    "facing=south": {
+      "model": "thegladgamerladexperience:block/crusher",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thegladgamerladexperience:block/crusher",
+      "y": 270
     }
   }
 }

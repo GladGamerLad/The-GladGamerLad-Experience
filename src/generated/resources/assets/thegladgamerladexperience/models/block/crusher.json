@@ -1,6 +1,9 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/orientable_with_bottom",
   "textures": {
-    "all": "thegladgamerladexperience:block/crusher"
+    "bottom": "thegladgamerladexperience:block/crusher_bottom",
+    "front": "thegladgamerladexperience:block/crusher_front",
+    "side": "thegladgamerladexperience:block/crusher_side",
+    "top": "thegladgamerladexperience:block/crusher_top"
   }
 }

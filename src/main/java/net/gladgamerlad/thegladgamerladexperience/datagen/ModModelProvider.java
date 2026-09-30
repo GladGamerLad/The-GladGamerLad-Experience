@@ -7,6 +7,8 @@ import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TextureSlot;
+import net.minecraft.client.data.models.model.TexturedModel;
 import net.minecraft.data.PackOutput;
 
 public class ModModelProvider extends ModelProvider {
@@ -17,8 +19,8 @@ public class ModModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
-        blockModels.createTrivialCube(ModBlocks.CRUSHER.get());
-        blockModels.createTrivialCube(ModBlocks.WASHER.get());
+        blockModels.createHorizontallyRotatedBlock(ModBlocks.CRUSHER.get(), TexturedModel.ORIENTABLE);
+        blockModels.createHorizontallyRotatedBlock(ModBlocks.WASHER.get(), TexturedModel.ORIENTABLE);
         blockModels.createTrivialCube(ModBlocks.CRUDE_IRON_ORE.get());
         blockModels.createTrivialCube(ModBlocks.CRUDE_COPPER_ORE.get());
         blockModels.createTrivialCube(ModBlocks.CRUDE_GOLD_ORE.get());
