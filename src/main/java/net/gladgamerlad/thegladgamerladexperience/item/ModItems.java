@@ -45,10 +45,22 @@ public class ModItems {
             props -> props
     );
 
-    public static final DeferredItem<Item> HAMMER= ITEMS.registerItem(
-            "hammer",
+    public static final DeferredItem<Item> IRON_HAMMER= ITEMS.registerItem(
+            "iron_hammer",
             HammerItem::new,
-            props -> props.pickaxe(ToolMaterial.IRON, 7f, -3.4f)
+            props -> props.pickaxe(ToolMaterial.IRON, 7f, -3.4f).enchantable(14)
+    );
+
+    public static final DeferredItem<Item> DIAMOND_HAMMER= ITEMS.registerItem(
+            "diamond_hammer",
+            HammerItem::new,
+            props -> props.pickaxe(ToolMaterial.DIAMOND, 7f, -3.4f).enchantable(14)
+    );
+
+    public static final DeferredItem<Item> NETHERITE_HAMMER= ITEMS.registerItem(
+            "netherite_hammer",
+            HammerItem::new,
+            props -> props.pickaxe(ToolMaterial.NETHERITE, 7f, -3.4f).enchantable(14)
     );
 
 

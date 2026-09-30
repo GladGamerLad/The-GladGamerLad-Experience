@@ -2,3 +2,12 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/give Dev thegladgamerladexperience:hammer
+/give Dev minecraft:enchanting_table
+/give Dev minecraft:lapis_lazuli
+/give Dev thegladgamerladexperience:hammer
+/give Dev minecraft:obsidian
+/give Dev thegladgamerladexperience:diamond_hammer
+/gamemode creative
+/gamemode survival
+/give Dev thegladgamerladexperience:crude_copper_ore

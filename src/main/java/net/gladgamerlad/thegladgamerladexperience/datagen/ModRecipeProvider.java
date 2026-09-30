@@ -6,10 +6,7 @@ import net.gladgamerlad.thegladgamerladexperience.block.ModBlocks;
 import net.gladgamerlad.thegladgamerladexperience.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -65,13 +62,23 @@ public class ModRecipeProvider extends RecipeProvider{
                 .group("totem of jimothy")
                 .save(output);
 
-        shaped(RecipeCategory.MISC, ModItems.HAMMER.get())
+        shaped(RecipeCategory.MISC, ModItems.IRON_HAMMER.get())
                 .pattern("ISI")
                 .pattern(" S ")
                 .pattern(" S ")
                 .define('I', Items.IRON_BLOCK)
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(Items.IRON_BLOCK), has(Items.IRON_BLOCK))
+                .group("hammer")
+                .save(output);
+
+        shaped(RecipeCategory.MISC, ModItems.DIAMOND_HAMMER.get())
+                .pattern("DSD")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('D', Items.DIAMOND_BLOCK)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.DIAMOND_BLOCK), has(Items.DIAMOND_BLOCK))
                 .group("hammer")
                 .save(output);
 
@@ -92,6 +99,24 @@ public class ModRecipeProvider extends RecipeProvider{
         oreSmelting(CRUSHED_RAW_IRON_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, Items.IRON_INGOT, 0.25f, 200, "crushed raw iron");
         oreSmelting(CRUSHED_RAW_COPPER_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, Items.COPPER_INGOT, 0.25f, 200, "crushed raw copper");
         oreSmelting(CRUSHED_RAW_GOLD_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, Items.GOLD_INGOT, 0.25f, 200, "crushed raw gold");
+
+        SmithingTransformRecipeBuilder.smithing(
+                        // The template ingredient.
+                        Ingredient.of(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE),
+                        // The base ingredient.
+                        Ingredient.of(ModItems.DIAMOND_HAMMER),
+                        // The addition ingredient.
+                        this.tag(ItemTags.NETHERITE_TOOL_MATERIALS),
+                        // The recipe book category.
+                        RecipeCategory.TOOLS,
+                        // The result item. Note that while the recipe codec accepts an item stack template here, the builder does not.
+                        // If you need an item stack template output, you need to use your own builder.
+                        ModItems.NETHERITE_HAMMER.get()
+                )
+                // The recipe advancement, like with the other recipes above.
+                .unlocks("has_netherite_ingot", this.has(ItemTags.NETHERITE_TOOL_MATERIALS))
+                // This overload of #save allows us to specify a name.
+                .save(this.output, "netherite_hammer_smithing");
     }
 
     @Override

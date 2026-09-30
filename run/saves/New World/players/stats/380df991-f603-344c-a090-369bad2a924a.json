@@ -1,42 +1,58 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:sprint_one_cm": 9065,
-      "minecraft:time_since_rest": 5002,
-      "minecraft:inspect_hopper": 14,
-      "minecraft:walk_one_cm": 14649,
-      "minecraft:total_world_time": 5124,
-      "minecraft:leave_game": 6,
-      "minecraft:fly_one_cm": 2524,
-      "minecraft:crouch_one_cm": 436,
-      "minecraft:sneak_time": 236,
-      "minecraft:play_time": 5002,
-      "minecraft:jump": 31,
-      "minecraft:time_since_death": 5002
-    },
-    "minecraft:used": {
-      "thegladgamerladexperience:crude_iron_ore": 19,
-      "minecraft:hopper": 5,
-      "thegladgamerladexperience:crusher": 1,
-      "thegladgamerladexperience:washer": 4,
-      "thegladgamerladexperience:crude_copper_ore": 4,
-      "thegladgamerladexperience:crude_gold_ore": 1,
-      "minecraft:netherite_pickaxe": 25,
-      "minecraft:sandstone": 1,
-      "minecraft:iron_ore": 1
+    "minecraft:dropped": {
+      "minecraft:raw_copper": 5
     },
     "minecraft:picked_up": {
       "minecraft:raw_gold": 1,
+      "minecraft:obsidian": 3,
       "minecraft:iron_ore": 1,
-      "minecraft:sandstone": 1,
-      "minecraft:raw_copper": 3,
-      "minecraft:raw_iron": 19
+      "minecraft:sandstone": 330,
+      "minecraft:raw_copper": 14,
+      "minecraft:raw_iron": 20
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 11453,
+      "minecraft:walk_one_cm": 24363,
+      "minecraft:leave_game": 12,
+      "minecraft:play_time": 11453,
+      "minecraft:jump": 101,
+      "minecraft:time_since_death": 11453,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 18438,
+      "minecraft:interact_with_smithing_table": 2,
+      "minecraft:inspect_hopper": 18,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 11651,
+      "minecraft:fly_one_cm": 16052,
+      "minecraft:crouch_one_cm": 436,
+      "minecraft:sneak_time": 241
+    },
+    "minecraft:used": {
+      "minecraft:smithing_table": 1,
+      "thegladgamerladexperience:diamond_hammer": 8,
+      "thegladgamerladexperience:crude_iron_ore": 20,
+      "minecraft:hopper": 5,
+      "thegladgamerladexperience:netherite_hammer": 250,
+      "thegladgamerladexperience:crusher": 1,
+      "thegladgamerladexperience:washer": 4,
+      "thegladgamerladexperience:crude_copper_ore": 7,
+      "minecraft:enchanting_table": 1,
+      "thegladgamerladexperience:crude_gold_ore": 1,
+      "minecraft:netherite_pickaxe": 25,
+      "minecraft:sandstone": 26,
+      "minecraft:iron_ore": 1,
+      "minecraft:obsidian": 3
+    },
+    "minecraft:crafted": {
+      "minecraft:air": 0
     },
     "minecraft:mined": {
-      "minecraft:sandstone": 1,
-      "thegladgamerladexperience:crude_iron_ore": 19,
-      "thegladgamerladexperience:crude_copper_ore": 3,
+      "minecraft:sandstone": 336,
+      "thegladgamerladexperience:crude_iron_ore": 20,
+      "thegladgamerladexperience:crude_copper_ore": 6,
       "thegladgamerladexperience:crude_gold_ore": 1,
+      "minecraft:obsidian": 3,
       "minecraft:iron_ore": 1
     }
   },

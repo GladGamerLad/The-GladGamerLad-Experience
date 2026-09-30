@@ -2,10 +2,12 @@ package net.gladgamerlad.thegladgamerladexperience.datagen;
 
 import net.gladgamerlad.thegladgamerladexperience.TheGladGamerLadExperience;
 import net.gladgamerlad.thegladgamerladexperience.block.ModBlocks;
+import net.gladgamerlad.thegladgamerladexperience.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.Identifier;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 
@@ -32,6 +34,5 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.CRUDE_IRON_ORE.get())
                 .add(ModBlocks.CRUDE_COPPER_ORE.get())
                 .add(ModBlocks.CRUDE_GOLD_ORE.get());
-
     }
 }

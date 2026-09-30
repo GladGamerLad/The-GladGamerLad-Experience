@@ -27,7 +27,9 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.CRUSHED_RAW_GOLD.get());
                 output.accept(ModItems.TOTEM_OF_JIMOTHY.get());
                 output.accept(ModItems.CRUSHED_EMERALD.get());
-                output.accept(ModItems.HAMMER.get());
+                output.accept(ModItems.IRON_HAMMER.get());
+                output.accept(ModItems.DIAMOND_HAMMER.get());
+                output.accept(ModItems.NETHERITE_HAMMER.get());
 
                 output.accept(ModBlocks.CRUSHER.get());
                 output.accept(ModBlocks.WASHER.get());

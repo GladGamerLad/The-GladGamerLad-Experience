@@ -42,7 +42,7 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WASHER.get());
 
         add(ModBlocks.CRUDE_IRON_ORE.get(), block -> createOreDrop(block, Items.RAW_IRON));
-        add(ModBlocks.CRUDE_COPPER_ORE.get(), block -> createOreDrop(block, Items.RAW_COPPER));
+        add(ModBlocks.CRUDE_COPPER_ORE.get(), block -> createCopperOreDrops(ModBlocks.CRUDE_COPPER_ORE.get()));
         add(ModBlocks.CRUDE_GOLD_ORE.get(), block -> createOreDrop(block, Items.RAW_GOLD));
     }
 }

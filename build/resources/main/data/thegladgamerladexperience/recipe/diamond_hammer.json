@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hammer",
+  "key": {
+    "D": "minecraft:diamond_block",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "DSD",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "id": "thegladgamerladexperience:diamond_hammer"
+  }
+}

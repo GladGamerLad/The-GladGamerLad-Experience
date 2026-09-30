@@ -28,6 +28,8 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.CRUSHED_RAW_GOLD.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.TOTEM_OF_JIMOTHY.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.CRUSHED_EMERALD.get(), ModelTemplates.FLAT_ITEM);
-        itemModels.generateFlatItem(ModItems.HAMMER.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.IRON_HAMMER.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.DIAMOND_HAMMER.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.NETHERITE_HAMMER.get(), ModelTemplates.FLAT_ITEM);
     }
 }

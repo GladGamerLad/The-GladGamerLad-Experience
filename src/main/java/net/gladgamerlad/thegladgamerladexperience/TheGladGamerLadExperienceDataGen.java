@@ -1,9 +1,6 @@
 package net.gladgamerlad.thegladgamerladexperience;
 
-import net.gladgamerlad.thegladgamerladexperience.datagen.ModBlockLootSubProvider;
-import net.gladgamerlad.thegladgamerladexperience.datagen.ModBlockTagsProvider;
-import net.gladgamerlad.thegladgamerladexperience.datagen.ModModelProvider;
-import net.gladgamerlad.thegladgamerladexperience.datagen.ModRecipeProvider;
+import net.gladgamerlad.thegladgamerladexperience.datagen.*;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
@@ -26,6 +23,7 @@ public class TheGladGamerLadExperienceDataGen {
 
         generator.addProvider(true, new ModModelProvider(packOutput));
         generator.addProvider(true, new ModBlockTagsProvider(packOutput, lookupProvider));
+        generator.addProvider(true, new ModItemTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootSubProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
